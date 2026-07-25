@@ -6,6 +6,8 @@
 
 **Language:** Python
 
+**Problem Link: https://leetcode.com/problems/gcd-of-odd-and-even-sums/ **
+
 ---
 
 ## Problem

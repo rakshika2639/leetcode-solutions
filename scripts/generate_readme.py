@@ -225,12 +225,16 @@ leetcode-solutions/
 
 ---
 
-## 🎯 Next Goals
+## Upcoming Topics
 
-- [ ] Solve problems across more topics
-- [ ] Add multiple language solutions per problem
-- [ ] Include video walkthrough links
-- [ ] Maintain a weekly streak
+- Arrays & Hashing
+- Two Pointers
+- Stack
+- Trees
+- Graphs
+- Dynamic Programming
+- Sliding Window
+- Backtracking
 
 ---
 

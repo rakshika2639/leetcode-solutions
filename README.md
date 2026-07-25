@@ -30,7 +30,7 @@ A curated collection of my LeetCode problem solutions, organized by topic. Each 
 
 | # | Problem | Difficulty | Topic | Language | Solution | Status |
 |---|---------|:----------:|-------|:--------:|:--------:|:------:|
-| 3658 | [3658. GCD of Odd and Even Sums](Math/3658_GCD_of_Odd_and_Even_Sums/) | 🟢 Easy | Math | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) & ![C++](https://img.shields.io/badge/-C++-00599C?logo=c%2B%2B&logoColor=white) | [Python](Math/3658_GCD_of_Odd_and_Even_Sums/python.py) & [C++](Math/3658_GCD_of_Odd_and_Even_Sums/solution.cpp) | ✅ |
+| 3658 | [3658. GCD of Odd and Even Sums](Math/3658_GCD_of_Odd_and_Even_Sums/) | 🟢 Easy | Math | ![C++](https://img.shields.io/badge/-C++-00599C?logo=c%2B%2B&logoColor=white) & ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) | [C++](Math/3658_GCD_of_Odd_and_Even_Sums/solution.cpp) & [Python](Math/3658_GCD_of_Odd_and_Even_Sums/solution.py) | ✅ |
 | | **Total** | | | | | **1** |
 
 ---

@@ -4,7 +4,7 @@
 
 **Difficulty:** Easy
 
-**Language:** Python
+**Language:** Python, C++
 
 **Problem Link: https://leetcode.com/problems/gcd-of-odd-and-even-sums/ **
 
@@ -91,5 +91,21 @@ class Solution(object):
         return abs(o)
 ```
         
-        
+
+```cpp
+class Solution {
+public:
+    int gcdOfOddEvenSums(int n) {
+        int oddSum = n * n;
+        int evenSum = n * (n + 1);
+
+        while (evenSum != 0) {
+            int temp = evenSum;
+            evenSum = oddSum % evenSum;
+            oddSum = temp;
+        }
+
+        return abs(oddSum);
+    }
+};
 ```

@@ -4,7 +4,7 @@
 ![Easy](https://img.shields.io/badge/Easy-1-brightgreen)
 ![Medium](https://img.shields.io/badge/Medium-0-yellow)
 ![Hard](https://img.shields.io/badge/Hard-0-red)
-![Languages](https://img.shields.io/badge/Languages-1-blue)
+![Languages](https://img.shields.io/badge/Languages-2-blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/rakshika2639/leetcode-solutions)
 
 A curated collection of my LeetCode problem solutions, organized by topic. Each solution includes a detailed explanation, complexity analysis, and key takeaways to reinforce learning.
@@ -22,7 +22,7 @@ A curated collection of my LeetCode problem solutions, organized by topic. Each 
 | 🟡 Medium | **0** |
 | 🔴 Hard | **0** |
 | 📚 Topics Covered | **1** |
-| 💻 Languages Used | **1** |
+| 💻 Languages Used | **2** |
 
 ---
 
@@ -30,7 +30,7 @@ A curated collection of my LeetCode problem solutions, organized by topic. Each 
 
 | # | Problem | Difficulty | Topic | Language | Solution | Status |
 |---|---------|:----------:|-------|:--------:|:--------:|:------:|
-| 3658 | [3658. GCD of Odd and Even Sums](Math/3658_GCD_of_Odd_and_Even_Sums/) | 🟢 Easy | Math | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) | [View](Math/3658_GCD_of_Odd_and_Even_Sums/README.md) | ✅ |
+| 3658 | [3658. GCD of Odd and Even Sums](Math/3658_GCD_of_Odd_and_Even_Sums/) | 🟢 Easy | Math | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) & ![C++](https://img.shields.io/badge/-C++-00599C?logo=c%2B%2B&logoColor=white) | [Python](Math/3658_GCD_of_Odd_and_Even_Sums/python.py) & [C++](Math/3658_GCD_of_Odd_and_Even_Sums/solution.cpp) | ✅ |
 | | **Total** | | | | | **1** |
 
 ---
@@ -45,7 +45,8 @@ leetcode-solutions/
 └── Topic_Name/             ← Organized by topic (e.g., Math, Arrays)
     └── Problem_Number_Title/
         ├── README.md       ← Problem explanation, approach & complexity
-        └── solution.py     ← Solution in the respective language
+        ├── solution.py     ← Solution in Python (and/or other languages)
+        └── solution.cpp    ← Solution in C++
 ```
 
 ---
@@ -62,6 +63,7 @@ leetcode-solutions/
 
 | Language | Problems |
 |:--------:|:--------:|
+| ![C++](https://img.shields.io/badge/-C++-00599C?logo=c%2B%2B&logoColor=white) | 1 |
 | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) | 1 |
 
 ---

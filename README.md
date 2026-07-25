@@ -1,11 +1,15 @@
 # 🧠 LeetCode Solutions
 
 ![Problems Solved](https://img.shields.io/badge/Solved-1-brightgreen)
-![Difficulty](https://img.shields.io/badge/Easy-1-brightgreen)
-![Language](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Easy](https://img.shields.io/badge/Easy-1-brightgreen)
+![Medium](https://img.shields.io/badge/Medium-0-yellow)
+![Hard](https://img.shields.io/badge/Hard-0-red)
+![Languages](https://img.shields.io/badge/Languages-1-blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/rakshika2639/leetcode-solutions)
 
 A curated collection of my LeetCode problem solutions, organized by topic. Each solution includes a detailed explanation, complexity analysis, and key takeaways to reinforce learning.
+
+> 🔄 This README is **automatically updated** via GitHub Actions whenever new solutions are pushed.
 
 ---
 
@@ -26,7 +30,7 @@ A curated collection of my LeetCode problem solutions, organized by topic. Each 
 
 | # | Problem | Difficulty | Topic | Language | Solution | Status |
 |---|---------|:----------:|-------|:--------:|:--------:|:------:|
-| 3658 | [GCD of Odd and Even Sums](./Math/3658_GCD_of_Odd_and_Even_Sums/) | 🟢 Easy | Math | [Python](./Math/3658_GCD_of_Odd_and_Even_Sums/python.py) | [View](./Math/3658_GCD_of_Odd_and_Even_Sums/README.md) | ✅ |
+| 3658 | [3658. GCD of Odd and Even Sums](Math/3658_GCD_of_Odd_and_Even_Sums/) | 🟢 Easy | Math | ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) | [View](Math/3658_GCD_of_Odd_and_Even_Sums/README.md) | ✅ |
 | | **Total** | | | | | **1** |
 
 ---
@@ -35,11 +39,13 @@ A curated collection of my LeetCode problem solutions, organized by topic. Each 
 
 ```
 leetcode-solutions/
-├── README.md               ← You are here
-├── Topic_Name/             ← Organized by topic (e.g., Math, Arrays)
-│   └── Problem_Number_Title/
-│       ├── README.md       ← Problem explanation, approach & complexity
-│       └── language.py     ← Solution in the respective language
+├── README.md               ← You are here (auto-generated)
+├── .github/workflows/      ← CI/CD for auto-updating this README
+├── scripts/                ← Generation scripts
+└── Topic_Name/             ← Organized by topic (e.g., Math, Arrays)
+    └── Problem_Number_Title/
+        ├── README.md       ← Problem explanation, approach & complexity
+        └── solution.py     ← Solution in the respective language
 ```
 
 ---
@@ -48,7 +54,7 @@ leetcode-solutions/
 
 1. **By Topic** — Each folder groups problems by their primary topic (e.g., `Math/`, `Arrays/`, `String/`).
 2. **By Problem** — Click any problem number in the table above to jump directly to its solution folder.
-3. **By Language** — Filter solutions by language using the badges above.
+3. **By Language** — Filter solutions by language.
 
 ---
 
@@ -60,23 +66,18 @@ leetcode-solutions/
 
 ---
 
-## 📈 What I'm Practicing
+## 📈 Topics Covered
 
-- ✅ **Math & Number Theory** — GCD, sum formulas, mathematical patterns
-- ⬜ **Arrays & Hashing** — Coming soon
-- ⬜ **Two Pointers** — Coming soon
-- ⬜ **Stack & Queue** — Coming soon
-- ⬜ **Trees & Graphs** — Coming soon
-- ⬜ **Dynamic Programming** — Coming soon
+- **Math** — 1 problem(s)
 
 ---
 
-## 📝 Future Plans
+## 🎯 Next Goals
 
-- [ ] Solve problems across a wider range of topics
-- [ ] Add solutions in C++ and Java
+- [ ] Solve problems across more topics
+- [ ] Add multiple language solutions per problem
 - [ ] Include video walkthrough links
-- [ ] Add weekly streak tracking
+- [ ] Maintain a weekly streak
 
 ---
 
@@ -87,4 +88,3 @@ leetcode-solutions/
 ⭐ Star this repo if you find it helpful!
 
 </div>
-

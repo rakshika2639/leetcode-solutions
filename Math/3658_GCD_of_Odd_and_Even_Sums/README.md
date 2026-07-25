@@ -54,8 +54,7 @@ Space Complexity: **O(1)**
 ## What I Learned
 - The sum of the first `n` odd numbers is always `n²`.
 - The sum of the first `n` even numbers is `n(n+1)`.
-- Take your time and don't rush the things.
-- Always double check your formulas.
+- Always double check your formulas before the implementation.
 - Looking for mathematical patterns can simplify a problem significantly.
 - The Euclidean Algorithm is an efficient way to compute the GCD.
 
@@ -72,17 +71,23 @@ observations with an efficient algorithm like the Euclidean Algorithm can greatl
 
 ---
 ## Solution
+
+```python
 class Solution(object):
     def gcdOfOddEvenSums(self, n):
         """
         :type n: int
         :rtype: int
         """
-        o=n**2
-        e=n*(n+1)
+
+        o = n ** 2
+        e = n * (n + 1)
+
         while e:
-            o,e=e,o%e
+            o, e = e, o % e
+
         return abs(o)
+```
         
         
 ```

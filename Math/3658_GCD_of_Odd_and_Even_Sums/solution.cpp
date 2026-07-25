@@ -1,3 +1,5 @@
+#include <cmath>
+
 class Solution {
 public:
     int gcdOfOddEvenSums(int n) {
@@ -10,7 +12,7 @@ public:
             oddSum = temp;
         }
 
-        return abs(oddSum);
+        return std::abs(oddSum);
     }
 };
 
